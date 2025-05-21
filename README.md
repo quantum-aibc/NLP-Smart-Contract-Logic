@@ -1,3 +1,26 @@
+Task 1: Natural Language to Smart Contract Logic
+Goal
+Build a tool that converts natural language instructions into secure Solidity snippets.
+
+What to Build
+Natural Language Input: Accept natural language input (e.g., 'Create an ERC-20 token with minting restricted to an allowlist').
+Solidity Code Output: Output minimal, secure Solidity code.
+Technical Explanation: Generate a brief technical explanation of the logic and security tradeoffs.
+Implementation Steps
+Set Up Mistral LLM:
+
+Use Mistral's API or a locally hosted version of Mistral to process natural language inputs.
+Prompt Engineering:
+
+Design prompts that guide the LLM to generate Solidity code from natural language instructions.
+Code Generation:
+
+Use the LLM to generate Solidity code based on the natural language input.
+Explanation Generation:
+
+Use the LLM to generate a technical explanation of the generated code.
+
+
 # NLP-Smart-Contract-Logic
 import requests
 
